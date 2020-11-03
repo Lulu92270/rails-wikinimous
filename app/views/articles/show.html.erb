@@ -1,0 +1,6 @@
+<h2><%= @article.title %></h2>
+<p><%= @article.content %></p>
+
+<%= link_to "Back to list", '../articles' %>
+
+<%= link_to "🌠 Edit this article", "#{article_path(@article)}/edit" %>
